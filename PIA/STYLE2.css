@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #FFFF00;
+    background: rgb(2, 35, 184);
+    font-size: 1em;
+    line-height: 1.5em;
+    
+    padding-top: 80px; /* Relleno superior igual a la altura de la cabecera"*/
+}
+h1{
+    
+font-size: 2.3em;
+line-height: 1.3em;
+margin: 15px 0;
+text-align: center;
+font-weight: 300;
+color: navy;
+}
+h2{
+    
+    font-size: 1.2em;
+    line-height: 1.3em;
+    margin: 15px 0;
+    font-weight: 300;
+    color: rgb(255, 247, 0);
+    }
+p{
+ 
+ margin: 0 0 1.5em 0;
+ color:rgb(38, 255, 38);
+}
+img {
+    max-width: 100%;
+    height: auto;
+ }
+/*Estas lineas de CSS las usaremos para dar estito a la cabeceras*/
+#main-header{ 
+    background: #333; 
+    color: #cf3737ff;
+    height: 80px;
+    }
+#main-header a { 
+    color: white;
+}
+/*Para insertar Logo */ 
+#logo-header { 
+    float: left;
+    padding: 15px 0 0 20px;
+      text-decoration: none;
+    }
+        #logo-header:hover { 
+            color: #b0ab0a;}
+        #logo-header.site-name{ 
+            display: block;
+             font-weight: 700;
+              font-size: 1.2em;}
+        #logo-header.site-desc { 
+            display: block; 
+            font-weight: 300; 
+            font-size: 0.8em; 
+            color: #000000;}
+       /* Navegación en el menu horizontal */ 
+       nav { 
+        float: right;
+    }
+        nav ul { 
+            margin: 0;
+             padding: 0;
+             list-style: none;
+             padding-right: 20px;
+        }
+
+nav ul li{
+
+display: inline-block;
+line-height: 80px;
+}
+nav ul li a { display: block;
+     padding: 0 5px;
+      text-decoration: none;
+    }
+
+nav ul li a:hover{
+
+background: #c20bd2;/*color gris del block*/
+}
+/*lista de menus */
+li {
+font: Arial;
+
+float: left;
+/*"carga los menus a la izquierda"*/
+}
+li a, .dropbtn{
+
+
+display: inline-block;
+
+color: #F5ECCE; /*color del texto en la barra"*/
+text-align: center;
+padding: 0px 16px;
+text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn { background-color: rgb(248, 9, 224);
+    /*color de la lista seleccionada"*/
+}
+/*ista de opciones verticales*/
+li.dropdown {
+    display: inline-block
+}
+.dropdown-content {
+
+display: none;
+ position: absolute;
+  background-color: rgb(12, 255, 44);
+
+min-width: 80px;
+
+box-shadow: 0px 8px 16px 0px rgb(0, 0, 0);
+
+z-index: 1;
+}
+.dropdown-content a{ 
+    color: black;
+    padding: 6px Box;
+    text-decoration: none;
+    display: block;
+    Text-align: left;
+}
+.dropdown-content a:hover { 
+    background-color: rgb(255, 255, 0);
+     /*color de elemento al ir seleccionando"*/
+}
+.dropdown:hover .dropdown-content { 
+    display: block;
+}
+/*Con estos estilos aplicaremos diseño al contenido:*/
+
+#main-content { background: rgb(249, 253, 4);
+     width: 90%;
+    max-width: 800px;
+     margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+#main-content header,
+
+#main-content.content {
+     padding: 40px;
+}
+/*Y por último, fijamos la cabecera:*/
+
+#main-header { 
+    background: rgb(200, 16, 16);
+     color: rgb(254, 254, 254);
+      height: 80px;
+
+
+width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */ 
+left: 0; /*Posicionamos la cabecera al lado izquierdo */
+top: 0; /* Posicionamos la cabecera pegada arriba */ 
+position: fixed; /*Hacemos que la cabecera tenga una posición fija */
+}

@@ -1,0 +1,120 @@
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <title>TIENDA DE CELULARES Y ACCESORIOS</title>
+        <link rel="stylesheet" href="STYLE2.css">
+
+    </head>
+    <body>
+        <header id="main-header">
+            <a id="logo-header" href="#">
+                <span class="site-name">PIA </span><br>
+                <span class="site-desc">DISEÑO AVANZADO DE PAGINA WEB </span>
+            
+            </a> <!-- #logo-header-->
+            <nav>
+                <ul>
+                    <li><a href="PIA.html">INICIO</a></li><!--MENU INICIO -->
+                    <li class="dropdown"><!--MENU DE QUINES SOMOS COMO TIENDA -->
+                        <a href="javascript:void(0)" class="dropbtn">QUIENES SOMOS</a>
+                        <div class="dropdown-content">
+                            <a href="QUIENES_SOMOS.html">QUIENES SOMOS</a>
+                        </div>
+                        <li class="dropdown"><!--MENU DE NUESTRA HISTORIA-->
+                            <a href="javascript:void(0)" class="dropbtn">HISTORIA</a>
+                        <div class="dropdown-content">
+                            <a href="HISTORIA.html">HISTORIA </a>
+                        </div></li>
+                        <li class="dropdown"><!--MENU DE CATALOGO-->
+                            <a href="javascript:void(0)" class="dropbtn">CATALOGO</a>
+                        <div class="dropdown-content">
+                            <a href="CATALOGO_PRE_PROD.html">CATALOGO </a>
+                        </div></li>
+                        <li class="dropdown"><!--MENU DE PROMOCIONES-->
+                            <a href="javascript:void(0)" class="dropbtn">PROMOCIONES</a>
+                        <div class="dropdown-content">
+                            <a href="PROMOCIONES.html">PROMOCIONES </a>
+                        </div></li>
+                        <li class="dropdown"><!--MENU DE SUCURSALES-->
+                            <a href="javascript:void(0)" class="dropbtn">SUCURSALES</a>
+                        <div class="dropdown-content">
+                            <a href="SUCURSALES.html">SUCURSALES </a>
+                        </div></li>
+                        <li class="dropdown"><!--MENU DE CONTACTOS-->
+                            <a href="javascript:void(0)" class="dropbtn">CONTACTANOS</a>
+                        <div class="dropdown-content">
+                            <a href="CONTACTO.html">CONTACTANOS </a>
+                        </div></li>
+                    </ul>
+            </nav>
+            </header>
+            <br>
+            <font>
+<button value="REDMI10VOLTEGSM" onclick="INFORMACION('REDMI10VOLTEGSM')">REDMI10VOLTEGSM </button><br>
+<button value="REDMI10C" onclick="INFORMACION('REDMI10C')">REDMI10C </button><br>
+<button value="REDMINOTE12S" onclick="INFORMACION('REDMINOTE12S')">REDMINOTE12S </button><br>
+<p aling="left">LOS MODELOS XIAOMI REDMI SE ENTREGARIAN EN LA CAJA 2 A LA HORA REQUERIDA O SUGERIDA NO PUEDE ABRIR EL <br>
+    TELEFONO, DE SER ASI SE ELIMINARA LA GARANTÍA</p><br><br>
+<button value="Moto_G23" onclick="INFORMACION('Moto_G23')">Moto_G23 </button><br>
+<button value="Moto_G42" onclick="INFORMACION('Moto_G42')">Moto_G42 </button><br>
+<button value="Moto_G52" onclick="INFORMACION('Moto_G52')">Moto_G52 </button><br>
+<p aling="left">LOS MODELOS MOTOROLA SE ENTREGARIAN EN LA CAJA 1 A LA HORA REQUERIDA O SUGERIDA NO PUEDE TENGA<br>
+    PRECAUCION AL ABRIR EL TELEFONO Y AL CONFIGURARLO TELEFONO, YA QUE LA GARANTIA NO PODRA HACER NADA<br>
+     SI NO SIGUE LAS INSTRUCCIONES AQUI ALGUNOS EJEMPLOS</p><br><br>
+    <button value="LGV60" onclick="INFORMACION('LGV60')">LGV60 </button><br>
+    <button value="LGV50" onclick="INFORMACION('LGV50')">LGV50 </button><br>
+    <button value="LGK71" onclick="INFORMACION('LGK71')">LGK71 </button><br>
+    <p aling="left">LOS MODELOS LG DEBRAS PEDIRLOS EN LA CAJA 3 PARA PODER CONSEGURLO Y CON ESTO UN PAR DE EJEMPLOS QUE TENEMOS DE ESTOS<br>
+         TELEFONOS<br></p>
+         <button value="IPHONE 13" onclick="INFORMACION('IPHONE 13')">IPHONE 13 </button><br>
+         <button value="IPHONE 14PROMAX" onclick="INFORMACION('IPHONE 14PROMAX')">IPHONE 14PROMAX </button><br>
+         <button value="IPHONE12" onclick="INFORMACION('IPHONE12')">IPHONE12 </button><br>
+         <p aling="left">LOS MODELOS IPHONES SE PIDEN EN LA CAJA 4 TE SUGERIMOS TENER PRECAUCION CON EL TELEFONO PARA MANTENERLO EN BUEN ESTADO<br></p>
+<script language="javascript">
+
+function INFORMACION(op) {
+    switch(op) {
+        case 'REDMI10VOLTEGSM':
+            document.body.style.background = "#0000FF url('REDMI10VOLTEGSM.png') no-repeat right ";
+            break;
+            case 'REDMI10C':
+            document.body.style.background = "#008000 url('REDMI10C.png') no-repeat right ";
+            break;
+            case 'REDMINOTE12S':
+            document.body.style.background = "#FF0000 url('REDMINOTE12S.png') no-repeat right ";
+            break;
+            case 'Moto_G23':
+                        document.body.style.background = "#0000FF url('MOTOG23.png') no-repeat right ";
+                        break;
+                        case 'Moto_G42':
+                        document.body.style.background = "#008000 url('MOTOG42.png') no-repeat right ";
+                        break;
+                        case 'Moto_G52':
+                        document.body.style.background = "#FF0000 url('MOTOG52.png') no-repeat right ";
+                        break;   
+
+                        case 'LGV60':
+                        document.body.style.background = "#0000FF url('LGV60.png') no-repeat right ";
+                        break;
+                        case 'LGV50':
+                        document.body.style.background = "#008000 url('LGV50.png') no-repeat right ";
+                        break;
+                        case 'LGK71':
+                        document.body.style.background = "#FF0000 url('LGK71.png') no-repeat right ";
+                        break;
+                        case 'IPHONE 13':
+                        document.body.style.background = "#0000FF url('IPHONE13.png') no-repeat right ";
+                        break;
+                        case 'IPHONE 14PROMAX':
+                        document.body.style.background = "#008000 url('IPHONE14.png') no-repeat right ";
+                        break;
+                        case 'IPHONE12':
+                        document.body.style.background = "#FF0000 url('IPHONE12.png') no-repeat right ";
+                        break;
+} 
+}
+</script>
+</font>
+</body>
+</html>
